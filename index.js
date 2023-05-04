@@ -72,9 +72,8 @@
 // console.log(`Bo'lish natijasi : ${devision}`);
 
 const Account = require('./account');
-
 Account.tellMeTime();
 const myNewAcc = new Account('Baxromjon', 900000 ,10010214158);
-console.log(myNewAcc.tellMeMyBalance());
-console.log(myNewAcc.makeDeposit(50000));
-console.log(myNewAcc.giveMeDetails())
+myNewAcc.tellMeMyBalance();
+myNewAcc.makeDeposit(50000);
+myNewAcc.giveMeDetails()
